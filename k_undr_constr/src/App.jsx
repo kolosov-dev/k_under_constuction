@@ -69,10 +69,11 @@ const App = () => {
             <section
               className="intro mt-16 md:mt-24 lg:mt-28 text-center text-xl leading-7 text-gray-700 max-w-2xl"
               style={{
-                fontFamily: "Geist Mono, serif",
-                fontSize: "larger",
-                paddingLeft: "10%",
-                paddingRight: "10%",
+                  fontFamily: "Geist Mono, serif",
+                  fontSize: "larger",
+                  paddingLeft: "10%",
+                  paddingRight: "10%",
+                  lineHeight: "2.3em"
               }}
             >
               <h1
