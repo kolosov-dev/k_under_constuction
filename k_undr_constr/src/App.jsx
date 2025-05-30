@@ -66,38 +66,68 @@ const App = () => {
               </div>
 
               {/* Tagline */}
-              <section
-                  className="intro mt-16 md:mt-24 lg:mt-28 text-center text-xl leading-[2.1rem] text-gray-700 max-w-2xl"
-                  style={{fontFamily: "Geist Mono, serif", fontSize: "larger", paddingLeft: "10%", paddingRight: "10%"}}
+            <section
+              className="intro mt-16 md:mt-24 lg:mt-28 text-center text-xl leading-7 text-gray-700 max-w-2xl"
+              style={{
+                fontFamily: "Geist Mono, serif",
+                fontSize: "larger",
+                paddingLeft: "10%",
+                paddingRight: "10%",
+              }}
+            >
+              <h1
+                className="leading-[4rem]"
+                style={{
+                  color: "#ffd4a4",
+                  fontFamily: "Geist Mono, serif",
+                  fontSize: "xxx-large",
+                }}
               >
-                  <h1 className="leading-[4rem]"
-                      style={{color: "#ffd4a4", fontFamily: "Geist Mono, serif", fontSize: "xxx-large"}}>
-                      Hi! My name is <br/>
-                      DMITRII KOLOSOV
-                  </h1>
+                Hello! I’m<br />
+                DMITRII KOLOSOV
+              </h1>
 
-                  <h2 style={{fontFamily: "Geist Mono, serif", fontSize: "xx-large"}}>
-                      an Enthusiastic Software Engineer
-                  </h2><br/>
-                  🚧 <b>Under Construction – Deploying Soon</b> 🚧<br/><br/>
-                  <p>
-                      I’m a Software Engineer specializing in <br/>
-                      <b>Data Engineering with Data Intensive systems</b>,
-                      <b> Backend development</b> and <b>AI-powered solutions</b>.
-                  </p>
-                  <p>
-                      I bring over <em>9 years</em> of hands-on experience collaborating with <br/>
-                      <em>international teams</em> to deliver reliable, scalable solutions.<br/>
-                  </p>
-                  <br/>
-                  <p>
-                      Interested in working together or have questions? <br/>
-                      <a href="https://linkedin.com/in/pixl4tech" target="_blank" rel="noopener">
-                          Connect with me on LinkedIn 👋
-                      </a>
-                  </p>
-                  <br/><br/>
-              </section>
+              <h2
+                style={{
+                  fontFamily: "Geist Mono, serif",
+                  fontSize: "xx-large",
+                }}
+              >
+                Enthusiastic Software Engineer
+              </h2>
+              <br />
+
+              🚧 <strong>Under Construction — Launching Soon!</strong> 🚧
+              <br />
+              <br />
+
+              <p>
+                I’m a Software Engineer specializing in{' '}
+                <strong>Data Engineering for Data-intensive systems</strong>,{' '}
+                <strong>Backend development</strong>, and{' '}
+                <strong>AI-driven solutions</strong>.
+              </p>
+
+              <p>
+                With over <em>nine years</em> of hands-on experience collaborating with{' '}
+                <em>international teams</em>, I build reliable, scalable solutions that
+                make an impact.
+              </p>
+              <br />
+
+              <p>
+                Interested in collaborating or have questions?<br />
+                <a
+                  href="https://linkedin.com/in/pixl4tech"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Let’s connect on LinkedIn 👋
+                </a>
+              </p>
+              <br />
+              <br />
+            </section>
           </main>
 
           {/* Footer */}
