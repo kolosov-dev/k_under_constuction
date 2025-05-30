@@ -82,8 +82,8 @@ const App = () => {
                   🚧 <b>Under Construction – Deploying Soon</b> 🚧<br/><br/>
                   <p>
                       I’m a Software Engineer specializing in <br/>
-                      <b>Data Engineering</b>,
-                      <b> Backend development</b> and <b>AI-powered, data intensive systems</b>.
+                      <b>Data Engineering with Data Intensive systems</b>,
+                      <b> Backend development</b> and <b>AI-powered solutions</b>.
                   </p>
                   <p>
                       I bring over <em>9 years</em> of hands-on experience collaborating with <br/>
