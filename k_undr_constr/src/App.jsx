@@ -77,7 +77,7 @@ const App = () => {
                   </h1>
 
                   <h2 style={{fontFamily: "Geist Mono, serif", fontSize: "xx-large"}}>
-                      Software Developer & Data Engineer
+                      an Enthusiastic Software Engineer
                   </h2><br/>
                   🚧 <b>Under Construction – Deploying Soon</b> 🚧<br/><br/>
                   <p>
