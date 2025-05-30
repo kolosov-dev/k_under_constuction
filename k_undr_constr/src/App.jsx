@@ -25,7 +25,7 @@ const App = () => {
   return (
       <div className="min-h-screen w-screen flex flex-col items-center justify-center bg-white px-4">
           {/* Main content */}
-          <main className="flex flex-col flex-1 items-center justify-center">
+          <main className="min-h-screen w-screen flex flex-col flex-1 items-center justify-center">
               <br/><br/><br/>
               {/* SVG block */}
               <div
@@ -66,27 +66,38 @@ const App = () => {
               </div>
 
               {/* Tagline */}
-              <p
-                  className="mt-16 md:mt-24 lg:mt-28 text-center text-xl leading-[2.1rem] text-gray-700 max-w-2xl"
-                  style={{fontFamily: "Geist Mono, serif", fontSize: "larger", paddingLeft: "5%", paddingRight: "5%"}}
+              <section
+                  className="intro mt-16 md:mt-24 lg:mt-28 text-center text-xl leading-[2.1rem] text-gray-700 max-w-2xl"
+                  style={{fontFamily: "Geist Mono, serif", fontSize: "larger", paddingLeft: "10%", paddingRight: "10%"}}
               >
-                  <h1 className="leading-[4rem]" style={{color: "#ffd4a4", fontFamily: "Geist Mono, serif", fontSize: "xxx-large"}}>
+                  <h1 className="leading-[4rem]"
+                      style={{color: "#ffd4a4", fontFamily: "Geist Mono, serif", fontSize: "xxx-large"}}>
                       Hi! My name is <br/>
                       DMITRII KOLOSOV
                   </h1>
 
                   <h2 style={{fontFamily: "Geist Mono, serif", fontSize: "xx-large"}}>
                       Software Developer & Data Engineer
-                  </h2><br/><br/>
+                  </h2><br/>
                   🚧 <b>Under Construction – Deploying Soon</b> 🚧<br/><br/>
-                  This site is currently in dev mode — a personal tech space in the making. <br/>
-                  Soon, it’ll be home to insights on data, code, and the real-life side of IT. <br/>
+                  <p>
+                      I’m a Software Engineer specializing in <br/>
+                      <b>Data Engineering</b>,
+                      <b> Backend development</b> and <b>AI-powered, data intensive systems</b>.
+                  </p>
+                  <p>
+                      I bring over <em>9 years</em> of hands-on experience collaborating with <br/>
+                      <em>international teams</em> to deliver reliable, scalable solutions.<br/>
+                  </p>
                   <br/>
-                  I’m building it from scratch: hand-coded, self-hosted, and powered by caffeine and curiosity. <br/>
-                  <br/>
-                  Thanks for dropping by. Come back soon!
-                  <br/><br/><br/>
-              </p>
+                  <p>
+                      Interested in working together or have questions? <br/>
+                      <a href="https://linkedin.com/in/pixl4tech" target="_blank" rel="noopener">
+                          Connect with me on LinkedIn 👋
+                      </a>
+                  </p>
+                  <br/><br/>
+              </section>
           </main>
 
           {/* Footer */}
